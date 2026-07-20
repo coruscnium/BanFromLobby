@@ -1,0 +1,24 @@
+# Build output
+bin/
+obj/
+*.dll
+*.pdb
+
+# IDE
+.vs/
+.vscode/
+*.suo
+*.user
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Deploy artifacts (user copies these manually)
+deploy/
+
+# Release zips
+*.zip
+
+# Exclude libs (BepInEx/Unity DLLs - user provides these)
+mod_project/libs/

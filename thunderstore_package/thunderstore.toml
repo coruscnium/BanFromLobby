@@ -1,0 +1,10 @@
+[mod]
+name = "BanFromLobby"
+version = "1.0.0"
+description = "Lobby ban management. Block unwanted players from joining with a simple UI. Banned players get disconnected when they try to connect."
+author = "Coruscnium"
+dependencies = [
+    "BepInEx-BepInExPack_Mycopunk-5.4.2403",
+    "Sparroh-SparrohUILib-1.1.1",
+    "Sparroh-ModSettingsMenu-1.2.0",
+]

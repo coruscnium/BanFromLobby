@@ -1,0 +1,79 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <AssemblyName>BanFromLobbyMod</AssemblyName>
+    <Product>BanFromLobby</Product>
+    <Version>1.0.0.0</Version>
+    <Description>Lobby ban management. Block unwanted players from joining with a simple UI. Banned players get disconnected when they try to connect.</Description>
+    <Authors>Coruscnium</Authors>
+    <LangVersion>latest</LangVersion>
+    <Nullable>disable</Nullable>
+    <RootNamespace>BanFromLobbyMod</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NETFramework.ReferenceAssemblies" Version="1.0.3">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <!-- BepInEx -->
+    <Reference Include="BepInEx" Private="false">
+      <HintPath>libs/BepInEx.dll</HintPath>
+    </Reference>
+    <Reference Include="0Harmony" Private="false">
+      <HintPath>libs/0Harmony.dll</HintPath>
+    </Reference>
+
+    <!-- Game DLL (from shared) -->
+    <Reference Include="Assembly-CSharp" Private="false">
+      <HintPath>../../_shared/Managed/Assembly-CSharp.dll</HintPath>
+    </Reference>
+
+    <!-- SparrohUILib -->
+    <Reference Include="SparrohUILib" Private="false">
+      <HintPath>libs/SparrohUILib.dll</HintPath>
+    </Reference>
+
+    <!-- ModSettingsMenu (for HudRepositionAPI, optional) -->
+    <Reference Include="ModSettingsMenu" Private="false">
+      <HintPath>libs/ModSettingsMenu.dll</HintPath>
+    </Reference>
+
+    <!-- Unity Engine -->
+    <Reference Include="UnityEngine" Private="false">
+      <HintPath>libs/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule" Private="false">
+      <HintPath>libs/UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.IMGUIModule" Private="false">
+      <HintPath>libs/UnityEngine.IMGUIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextRenderingModule" Private="false">
+      <HintPath>libs/UnityEngine.TextRenderingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI" Private="false">
+      <HintPath>libs/UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro" Private="false">
+      <HintPath>libs/Unity.TextMeshPro.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.InputSystem" Private="false">
+      <HintPath>libs/Unity.InputSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.InputLegacyModule" Private="false">
+      <HintPath>libs/UnityEngine.InputLegacyModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PhysicsModule" Private="false">
+      <HintPath>libs/UnityEngine.PhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Netcode.Runtime" Private="false">
+      <HintPath>../../_shared/Managed/Unity.Netcode.Runtime.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
