@@ -26,7 +26,7 @@ namespace BanFromLobbyMod
     {
         public const string PluginGUID = "coruscnium.banfromlobby";
         public const string PluginName = "BanFromLobby";
-        public const string PluginVersion = "1.1.1.0";
+        public const string PluginVersion = "1.1.2.0";
 
         internal static new ManualLogSource Logger;
         internal static Plugin Instance { get; private set; }

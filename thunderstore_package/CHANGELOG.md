@@ -1,9 +1,10 @@
 # Changelog
 
-## 1.1.1 (2026-07-19)
+## 1.1.2 (2026-07-19)
 
 ### Fixed
-- Removed leftover BanPlayersMod.dll from thunderstore package (only one DLL per mod).
+- Removed nested zip from release (stale BanFromLobby-1.0.1.zip was in thunderstore_package/).
+- Added lesson #11 to clinerules documenting zip build hygiene.
 
 ## 1.1.0 (2026-07-19)
 

@@ -1,6 +1,6 @@
 [mod]
 name = "BanFromLobby"
-version = "1.1.1"
+version = "1.1.2"
 description = "Lobby ban management. Block unwanted players from joining with a simple UI. Banned players get disconnected when they try to connect."
 author = "Coruscnium"
 dependencies = [
