@@ -1,9 +1,11 @@
 # Changelog
 
-## 1.1.0 (2026-07-19)
+## 1.1.1 (2026-07-19)
 
 ### Changed
 - Ban rejection message now includes the mod name: "This player has banned you from their lobbies via the BanFromLobby mod."
+- Cleaned up leftover BanPlayersMod.dll from thunderstore package.
+- Reformatted README and CHANGELOG to match other mods' style.
 
 ## 1.0.1 (2026-07-19)
 

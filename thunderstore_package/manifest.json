@@ -1,6 +1,6 @@
 {
     "name": "BanFromLobby",
-    "version_number": "1.1.0",
+    "version_number": "1.1.1",
     "website_url": "https://github.com/coruscnium/BanFromLobby",
     "description": "Lobby ban management. Block unwanted players from joining with a simple UI. Banned players get disconnected when they try to connect.",
     "dependencies": [
